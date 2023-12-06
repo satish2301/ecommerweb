@@ -15,9 +15,9 @@ function App() {
   const { isAuthenticated ,user ,isLoading } = useAuth0();
   const items = useSelector((state) => state.cart);
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid bg-light shadow-sm'>
       <div className='container'>
-        <nav className="navbar navbar-expand-lg bg-light py-3 shadow-sm ">
+        <nav className="navbar navbar-expand-lg  py-3  ">
           <div className="container-fluid">
             <NavLink className="navbar-brand" to="#">SC Shoping Mall</NavLink>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
